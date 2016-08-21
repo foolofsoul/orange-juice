@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  margin: 0;
+  font-family: Raleway, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a { text-decoration: none; }
+
+
+/****************   LOGO AND NAVIGATION   ****************/
+#navigation {
+  position: relative;
+  height: 75px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: 3px solid  #cb6211;
+  color: #fff;
+  background-color: #FD7D00;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.logo sup {
+  font-size: 16px;
+}
+
+nav {
+  height: 75px;
+}
+
+.main-nav {
+  position: relative;
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);  
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.main-nav li:last-child {
+  margin-right: 0;
+}
+
+.main-nav a {
+  color: #fff;
+}
