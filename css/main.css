@@ -25,20 +25,38 @@ a { text-decoration: none; }
 #navigation {
   position: relative;
   height: 75px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 4%;
+  padding-right: 4%;
   border-bottom: 3px solid  #cb6211;
   color: #fff;
   background-color: #FD7D00;
 }
 
 .logo {
-  position: relative;
   float: left;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
   font-size: 30px;
   font-weight: 300;
+}
+
+.logo-img {
+  vertical-align: bottom;
+  width: 50px;
+  margin-right: 5px;
+}
+
+.logo h1 {
+  display: inline-block;
+  line-height: 44px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h1 strong {
+  font-weight: 600;
 }
 
 .logo sup {
@@ -68,4 +86,102 @@ nav {
 
 .main-nav a {
   color: #fff;
+  font-weight: 600;
+}
+
+
+/****************   HERO   ****************/
+#hero {
+  height: calc(100vh - 150px);
+  padding-right: 4%;
+  background: url(../img/orange-bg.png),
+    linear-gradient(#fff, #e8e8e8);
+  background-repeat: no-repeat;
+  background-position: 15% 50%;
+}
+
+form {
+  position: absolute;
+  right: 4%;
+  margin-top: 5px;
+  padding: 20px 30px;
+  background-color: #F1F1F1;
+}
+
+input {
+  border: 0;
+  font-family: Raleway, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #b9b9b9;
+  background-color: #F1F1F1;
+}
+
+input:focus {
+  outline: none;
+}
+
+.fa-search {
+  margin-left: 5px;
+  color: #b9b9b9;
+}
+
+.hero-text {
+  width: 46%;
+  float: right;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.hero-text h2 {
+  margin-top: 0;
+  color: #FD7D00;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.hero-text sup {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #7ACCC8;
+}
+
+button {
+  width: 45%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0;
+  border-radius: 5px;
+  font-family: Raleway, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+button a { color: #fff; }
+
+.quote-btn {
+  margin-right: 4%;
+  background-color: #FD7D00;
+}
+
+.quote-btn:hover {
+  background-color: #f17a06;
+}
+
+.case-btn {
+  background-color: #7ACCC8;
+}
+
+.case-btn:hover {
+  background-color: #5fb3af;
+}
+
+/****************   FOOTER   ****************/
+footer {
+  height: 75px;
+  background-color: #7ACCC8;
 }
